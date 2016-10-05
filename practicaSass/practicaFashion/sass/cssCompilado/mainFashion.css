@@ -1,0 +1,64 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1200px; }
+
+.content {
+  float: right;
+  font-size: 14px;
+  margin-bottom: 10px; }
+
+.content li {
+  display: inline;
+  margin-left: 35px; }
+
+.subTittles {
+  display: inline-block;
+  position: relative;
+  top: -43px;
+  left: 354px;
+  color: white; }
+
+.subTittles a {
+  color: white;
+  text-decoration: none; }
+
+.main {
+  margin-top: -49px; }
+
+.paragraphTop {
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  height: 108px;
+  margin-top: -174px;
+  margin-left: 660px; }
+
+.firstTittle {
+  font-size: 16px;
+  color: #00C0FF;
+  margin: 10px; }
+
+.secondTittle {
+  font-size: 14px;
+  margin: 10px;
+  color: black;
+  margin-top: -10px; }
+
+.paragraph {
+  font-size: 12px;
+  margin: 10px;
+  margin-top: -10px; }
+
+.under {
+  margin-left: 4.2px;
+  margin-top: 10px; }
+
+.textBottom {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+
+.anchor {
+  color: blue; }
+
+/*# sourceMappingURL=mainFashion.css.map */

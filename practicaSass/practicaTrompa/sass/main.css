@@ -1,0 +1,58 @@
+.wrapper {
+  width: 800px;
+  margin: 0 auto; }
+
+.title {
+  border-bottom: 1px solid #666;
+  line-height: 50px; }
+
+.pic {
+  float: right;
+  margin-top: -86px; }
+
+.info {
+  font-family: arial, serif; }
+
+.textGray a {
+  color: #666; }
+
+.content {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 73px; }
+
+.line {
+  border-right: 2px solid #999;
+  float: left;
+  width: 85px;
+  height: 120px;
+  margin-bottom: -120px; }
+
+.secondTitle {
+  display: inline-block;
+  margin-left: -25px;
+  margin-bottom: 10px; }
+
+.space {
+  margin-left: 10px; }
+
+.title3 {
+  display: inline-block;
+  margin-left: -514px;
+  position: relative;
+  left: 44px;
+  bottom: -143px; }
+
+h4 {
+  display: inline-block; }
+
+li {
+  margin-left: 82px; }
+
+span {
+  color: #666;
+  font-family: arial, serif;
+  margin-left: 150px;
+  font-size: 15px; }
+
+/*# sourceMappingURL=main.css.map */
