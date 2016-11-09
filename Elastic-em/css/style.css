@@ -1,0 +1,178 @@
+.clearFix {
+  display: block; }
+  .clearFix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; }
+
+.wrapper {
+  width: 80em;
+  margin: 0 auto; }
+
+.header {
+  background-color: #e8e8e8;
+  border-top: 1.1875em solid #664735;
+  height: 26.125em;
+  margin-top: -1.0625em; }
+
+.textBottom {
+  float: left;
+  margin: 5.125em 0 0 -1.5625em;
+  width: 26.875em; }
+
+h2 {
+  color: #9d9c9d; }
+
+a {
+  text-decoration: none;
+  color: #9d9c9d; }
+
+p {
+  color: #9d9c9d; }
+
+.contentBox {
+  height: 25.1875em; }
+
+.boxes {
+  color: #9d9c9d;
+  float: left;
+  margin: 6.8125em -5.0625em 0 2.4375em;
+  text-align: center;
+  width: 26.5625em; }
+  .boxes p {
+    margin-left: 5em;
+    width: 18.5625em; }
+
+span a {
+  color: #755949;
+  text-decoration: none; }
+
+.section {
+  margin-bottom: 1.25em; }
+
+.sectionInfo {
+  height: 25.625em; }
+
+.firstSection {
+  background-color: #755949;
+  float: left;
+  height: 0.038892944em;
+  width: 40em;
+  margin-left: 10px; }
+
+.picSF {
+  margin: 5em 10.625em 0 10.625em; }
+
+.secondSection {
+  background-color: #664735;
+  float: right;
+  height: 25.6875em;
+  width: 40em; }
+  .secondSection h3 {
+    color: #FFF;
+    margin: 2.75em 4.8125em 0 2.75em; }
+  .secondSection p {
+    color: #FFF;
+    margin: 2.75em 4.8125em 0 2.75em; }
+  .secondSection button {
+    background-color: #FFF;
+    border-radius: 0.3125em;
+    color: #664735;
+    height: 2.1875em;
+    margin: 2.75em 4.8125em 0 2.75em;
+    width: 5.625em; }
+
+.content {
+  margin: 9.1875em 10.625em 2.1875em 12.75em;
+  text-align: center; }
+
+.firstLine {
+  height: 17.125em;
+  margin: 0 5em 0 16.25em; }
+
+.spacing {
+  margin-top: 12.5em; }
+
+.footer {
+  margin-top: 9.25em; }
+
+.footerInfo {
+  background-color: #755949; }
+
+h4 {
+  color: #FFF; }
+
+.columns {
+  height: 14.125em;
+  margin: 1.25em 0 0 9.375em; }
+  .columns p {
+    color: #FFF;
+    margin-right: 5em; }
+
+.contentColumns {
+  float: left;
+  width: 15.375em; }
+
+.autor {
+  margin-left: 7.5625em; }
+
+nav {
+  background: #f4f3f3;
+  border-bottom: 0.0625em solid #d6d6d6;
+  border-radius: 5em;
+  height: 56px;
+  margin: 0.9375em auto;
+  margin-right: 5em;
+  overflow: hidden;
+  width: 32.3125em; }
+
+.menu {
+  display: table;
+  table-layout: fixed; }
+  .menu li {
+    border-right: 0.0625em solid #e6e6e6;
+    display: inline;
+    letter-spacing: 0.125em;
+    margin: 0 0.75em 0 0.625em;
+    overflow: hidden;
+    padding: 0.125em; }
+    .menu li:first-child {
+      margin: 0 auto;
+      border-left: none; }
+    .menu li:last-child {
+      border-right: none; }
+  .menu a {
+    color: #664735;
+    text-decoration: none;
+    padding: 0.125em; }
+
+.logo {
+  float: left;
+  margin: 2.5em 0 0 7em; }
+
+.coffeeGrane {
+  float: right;
+  margin: 7em 10.0625em 0 0; }
+
+.leftArrow {
+  left: -32.5625em;
+  position: relative;
+  top: 10.5em; }
+
+.rightArrow {
+  position: relative;
+  right: -32.125em;
+  top: 10.5625em; }
+
+.pictures {
+  float: left; }
+
+.arrowCircle {
+  left: 39em;
+  position: relative;
+  top: -2.9375em; }
+
+/*# sourceMappingURL=style.css.map */
