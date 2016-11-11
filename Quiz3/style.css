@@ -1,0 +1,23 @@
+.wrapper {
+	margin: 0 auto;
+	width: 93.75em; 
+}
+
+.menu {
+	width: 87.5em;
+	display: inline-block;
+	margin-bottom: 0.625em;
+	text-align: center;
+}
+
+
+a { 
+	border: 0.0625em solid gray;
+	padding: 1.25em;
+
+}
+.imgs {
+	clear: both;
+	margin-top: 1.25em;
+	display: inline-block;
+}
