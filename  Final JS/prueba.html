@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js/jquery-3.1.1.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<h1 class="tittle">Christmas' Time-Click</h1>
+
+		<div class="slider"> <!--imgs placed -->
+			<li class="img" id="imgV"><img src="img/bauble.png"> 40  Santa's clicks</li>
+			<li class="img" id="item2"><img src="img/snowflake.png"> 60 Santa's clicks</li>
+			<li class="img" id="item3"><img src="img/bell.png"> 80 Santa's clicks</li>
+			<li class="img" id="item4"><img src="img/illumination.png">100 Santa's clicks</li>
+			<li class="img" id="item5"><img src="img/star.png">	120 Santa's clicks</li>
+			<li class="img" id="item6"><img src="img/snow-globe.png">140 Santa's clicks</li>
+			<li class="img" id="autoclick"><img src="img/angel.png">1000 Santa's clicks</li>
+		</div>
+
+		<div> <!--imgs type events placed -->
+			<img id="img1" src="img/img/muffin1.png">
+			<img id="img2" src="img/img/muffin2.png">
+			<img id="img3" src="img/img/muffin3.png">
+			<img id="img4" src="img/img/muffin5.png">
+			<img id="img5" src="img/img/muffin6.png">
+			<img id="img6" src="img/img/muffin7.png">
+			<img id="img7" src="img/img/muffin8.png">
+		</div>
+
+		<img id="clicker" src="img/santa.png"> <!-- clicker -->
+		<p id="counter">0</p> <!-- counter on screen -->
+
+		<button  class="btn" id="json" type="button">INTRO</button> <!--call json -->
+		<button class="btn" click="cantClicks()">SAVE</button> <!--save counter -->
+		<button class="btn">CLEAR</button> <!--clear counter -->
+		<div id="result"></div> <!--json text placed-->
+
+	</div>
+
+	<script src="js/otro.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
