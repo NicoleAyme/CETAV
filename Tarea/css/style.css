@@ -1,0 +1,110 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1028px;
+  height: 1000px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family: cursive;
+  font-size: 35px;
+  margin-bottom: -53px;
+  width:1028px;
+}
+
+.boxSizing {
+	width:1000px;
+	height:1000px;
+	border: 4px solid black;
+  margin-top: 85px;
+	padding: 10px;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 180px;
+  height: 180px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: 1px solid blue;
+  float: left;
+}
+
+@font-face {
+  font-family: sirin;
+  src: url(../tipo/sirinstencil-regular-webfont.woff);
+}
+
+div {
+  font-size: 100px;
+  text-align: center;
+  font-family: sirin;
+}
+
+.degradation {
+  height: 200px;
+  margin-top: 80px;
+  background: #2300bf; /* Old browsers */
+  background: linear-gradient(to bottom, #2300bf 0%,#d6d6d6 30%,#ff0400 50%,#d6d6d6 68%,#2300bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.transition {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  background: orange;
+  transition: width 2s;
+}
+
+.transition:hover {
+    width: 1024px;
+    /*transition: width 2s;*/
+
+}
+
+.translate{
+  width: 200px;
+  height: 100px;
+  margin-top: 40px;
+  background-color: orange;
+
+}
+
+.translate:hover{
+   background-color: red;
+   -ms-transform: translate(25px); /* IE 9 */
+  -webkit-transform: translate(25px); /* Chrome, Safari, Opera */
+  transform: translate(25px);
+}
+
+.rotate {
+  width: 200px;
+  height: 100px;
+  margin-top: 40px;
+  background-color: orange;
+}
+
+.rotate:hover{
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+  background-color: green;
+}
+
+.scale {
+  width: 200px;
+  height: 100px;
+  margin-top: 40px;
+  background-color: orange;
+
+}
+
+.scale:hover{
+  background-color: blue;
+  -ms-transform: scale(2,1); /* IE 9 */
+  -webkit-transform: scale(2,1); /* Chrome, Safari, Opera */
+  transform: scale(2,1);
+
+}
